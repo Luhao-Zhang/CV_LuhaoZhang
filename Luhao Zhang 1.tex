@@ -1,0 +1,446 @@
+\documentclass[margin,line]{res}
+
+
+\oddsidemargin -.5in
+\evensidemargin -.5in
+\textwidth=6.0in
+\itemsep=0in
+\parsep=0in
+% if using pdflatex:
+%\setlength{\pdfpagewidth}{\paperwidth}
+%\setlength{\pdfpageheight}{\paperheight} 
+
+%\usepackage{hyperref}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage{etaremune}
+\usepackage{xfrac}
+\usepackage{mathabx}
+\usepackage[UTF8]{ctex}
+\usepackage{fontawesome}
+\usepackage{xcolor}
+\definecolor{longhorn}{rgb}{0.8, 0.33, 0.0}
+\definecolor{airforceblue}{rgb}{0.1, 0.3, 0.6}
+\usepackage[colorlinks = true,
+            linkcolor = airforceblue,
+            urlcolor  = airforceblue,
+            citecolor = airforceblue,
+            anchorcolor = airforceblue]{hyperref}
+
+\newcommand{\MYhref}[3][airforceblue]{\href{#2}{\color{#1}{#3}}}%
+
+
+\newenvironment{list1}{
+  \begin{list}{\ding{113}}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\leftmargin}{0.17in}}}{\end{list}}
+\newenvironment{list2}{
+  \begin{list}{$\bullet$}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\leftmargin}{0.2in}}}{\end{list}}
+\newcommand{\vvspace}{\vspace{0.1in}}
+
+
+
+\begin{document}
+
+\name{Luhao Zhang \vspace*{.1in}}
+
+\begin{resume}
+\section{\sc Contact Information}
+\vspace{.05in}
+\begin{tabular}{@{}p{2.7in}p{4in}}        
+Department of Mathematics, PMA 8.100  & \faEnvelope  :  \MYhref{mailto:luhaozhang@math.utexas.edu}{luhaozhang@math.utexas.edu}\\         
+ 2515 Speedway Stop C1200 & \faHome : \MYhref{https://web.ma.utexas.edu/users/luhaozhang/}{web.ma.utexas.edu/users/luhaozhang/} \\       
+  Austin, TX 78712-1202, USA & \faPhone : +1 (737) 270-5656 
+\end{tabular}
+
+%\vspace{-0.1in}
+
+\section{\sc Research Area}
+Stochastic and robust optimization, Data-driven decision-making under uncertainty, Machine learning
+
+%\vspace{-0.1in}
+
+
+\section{\sc Education}
+{\bf The University of Texas at Austin}, Austin, TX, USA\\
+\vspace*{-.15in}
+\begin{list1}
+\item[] \textbf{Ph.D. in Mathematics} \hfill Aug 2018 - May 2023
+\item[] Advisor: \MYhref{https://web.ma.utexas.edu/users/zariphop/}{Thaleia Zariphopoulou}
+\item[] Committee Member: \href{https://faculty.mccombs.utexas.edu/rui.gao/}{Rui Gao}, Irene M.~Gamba, Mihai Sirbu, Stathis Tompaidis
+\end{list1}
+
+{\bf Xi'an Jiaotong University}, Xi'an, Shaanxi, China\\
+%{\em Department of Mathematics and Statistics} 
+\vspace*{-.15in}
+\begin{list1}
+\item[] \textbf{B.S. in Mathematics and Applied Mathematics} (Honors Program) 
+\hfill Aug 2014 - 2018
+\end{list1}
+\begin{itemize}
+\setlength\itemsep{0.1em}
+\item[] \href{https://en.wikipedia.org/wiki/Special_Class_for_the_Gifted_Young#Xi'an_Jiaotong_University}{\textit{Special Class for the Gifted Young}}
+% : Early decision to the university after middle school 
+% \item \textit{Full Scholarship} (1 out of 200) as a visiting student in \textbf{Columbia university} (Spring 2016) and \textbf{University of California, Berkeley} (Spring 2017)
+\end{itemize}
+
+\iffalse
+{\bf Columbia University in the City of New York}, New York City, NY, USA\\
+%{\em Department of Mathematics} 
+\vspace*{-.15in}
+\begin{list1}
+\item[] Visiting Undergraduate Student \hfill Jan. - May 2016
+\end{list1}
+
+{\bf University of California, Berkeley}, Berkeley, CA, USA\\
+%{\em Department of Mathematics} 
+\vspace*{-.15in}
+\begin{list1}
+\item[]  Visiting Undergraduate Student \hfill Jan. - May 2017
+\end{list1}
+
+\fi
+
+
+% {\bf University of Texas at Austin}, Austin, Texas USA\\
+% %{\em Department of Mathematics} 
+% \vspace*{-.1in}
+% \begin{list1}
+% \item[] Visiting Student Intern for Research Assistant \hfill Sept. - Dec. 2017 
+% \end{list1}
+
+
+%\vspace{-0.1in}
+
+
+
+\section{\sc Research \\
+Papers}
+{\bf Publications}
+%\vvspace
+\begin{enumerate}[leftmargin=0.15in]
+    \item Luhao Zhang, Jincheng Yang, Rui Gao. \textit{\MYhref{http://www.optimization-online.org/DB_HTML/2021/12/8749.html}{Optimal Robust Policy for Feature-Based Newsvendor}} (2022), \textit{\textbf{Management Science}}, forthcoming.
+    \item Luhao Zhang, Mohsen Ghassemi, Ivan Brugere, Alan Mishle, Niccolo Dalmasso, Vamsi Potluru, Tucker Balch, Manuela Veloso. \textit{Conditional Demographic Parity Through Optimal Transport} (2022), NeurIPS Workshop on Algorithmic Fairness through the Lens of Causality and Privacy.
+\end{enumerate}
+
+
+% {\bf Under Revision}
+% %\vvspace
+% \begin{enumerate}[leftmargin=0.15in]
+%     \setcounter{enumi}{1}
+%     \item \textbf{Luhao Zhang}, Jincheng Yang, Rui Gao. \textit{\MYhref{https://arxiv.org/abs/2205.00362}{A Simple and General Duality Proof for Wasserstein Distributionally Robust Optimization}} (2022), under review for \textit{Management Science}, fast track.
+% \end{enumerate}
+
+
+% {\bf Conference Papers}
+% \begin{enumerate}[leftmargin=0.15in]
+% \setcounter{enumi}{2}
+%     \item \textbf{Luhao Zhang}, Mohsen Ghassemi, Ivan Brugere, Alan Mishle, Niccolo Dalmasso, Vamsi Potluru. \textit{Conditional Demographic Parity Through Optimal Transport} (2022), NeurIPS Workshop on Algorithmic Fairness through the Lens of Causality and Privacy.
+% \end{enumerate}
+
+{\bf Preprints}
+\begin{enumerate}[leftmargin=0.15in]
+\setcounter{enumi}{2}
+    \item Luhao Zhang, Jincheng Yang, Rui Gao. \textit{\MYhref{https://arxiv.org/abs/2205.00362}{A Simple and General Duality Proof for Wasserstein Distributionally Robust Optimization}} (2022), under review for \textbf{\textit{Management Science}} (fast track).
+    \item Jincheng Yang*, Luhao Zhang*, Ningyuan Chen, Rui Gao, Ming Hu. \textit{\href{https://optimization-online.org/2022/10/decision-making-with-side-information-a-causal-transport-robust-approach/}{Decision-making with Side Information: A Causal Transport Robust Approach}} (2022), to be submitted to \textbf{\textit{Operations Research}}.
+    \item Renyuan Xu*, Thaleia Zariphopoulou*, Luhao Zhang*. \textit{Decision Making with Learning and Opportunity to Reverse} (2022), to be submitted to \textbf{\textit{Operations Research}}.
+    \item[] * indicates alphabetical order
+\end{enumerate}
+
+
+
+\section{\sc Industry Experience}
+{\bf J.P.Morgan Chase, AI Research}, New York, NY
+\vspace{-.3cm}
+
+{\em AI Researcher (Intern)} \hfill { Jun - Aug 2022}
+\begin{itemize}[leftmargin=0.15in]
+\item Developed an efficient algorithm to achieve conditional demographic parity using causal transport distance
+\item Preliminary result accepted by \textit{NeurIPS Workshop on Algorithmic Fairness through the Lens of Causality and Privacy}
+\end{itemize}
+
+% \section{\sc Technical Skills}
+% {\bf Python, C++, }
+% \vspace*{-.15in}
+
+% {\em Optimal Policies for Robust Big Data Newsvendor} \hfill { May 2021}
+
+% \section{\sc Award}
+
+
+%\vspace{-.3cm}
+\section{\sc Selected\\ 
+Award}
+Frank Gerth III Teaching Excellence Award, UT Austin \hfill {2021}
+
+\vspace{-0.5cm}
+
+Selected to present at the Cornell ORIE Young Researchers Workshop \hfill {2021}
+%\vspace{-.3cm}
+
+% \section{\sc Programming}
+% Experience in Python, C++, R, Matlab, Mathematica
+
+%\newpage
+
+
+
+
+\section{\sc Invited Talks}
+{\bf Optimal Robust Policy for Feature-Based Newsvendor}
+\begin{itemize}[leftmargin=0.15in]
+\item Robust Optimization Webinar Series  \hfill { May 2021}\\ 
+\vspace{-0.2in}
+\item International Conference of the Chinese Scholars Association for Management Science and Engineering (CSAMSE), Shanghai Jiaotong University \hfill{July 2021}
+
+\item Cornell ORIE Young Researchers Workshop, Ithaca, NY \hfill{Oct 2021}
+
+\item INFORMS Annual Meeting, Anaheim, CA \hfill{Oct 2021}
+
+\item Conference on Artificial Intelligence, Machine Learning, and Business Analytics, Rutgers University \hfill{Dec 2021}
+% \raggedleft Dec 2021 
+
+
+% \raggedright
+
+\item Texas Women in Math Symposium, Rice University \hfill{Feb 2022}
+
+\item INFORMS Optimization Society Conference, Greenville, SC  \hfill{March 2022}
+\end{itemize}
+
+{\bf Decision Making with Learning and Opportunity to Reverse}
+
+\begin{itemize}[leftmargin=0.15in]
+\item SIAM Annual Meeting, Pittsburgh, PA \hfill{Jul 2022}
+\item INFORMS Annual Meeting, Indianapolis, IN \hfill{Oct 2021}
+\end{itemize}
+
+
+\section{\sc Teaching experience}
+{\bf UT Austin, Teaching Assistant}
+\vspace{-0.3cm}
+
+% \underline{Statistics and Applied Mathematics}
+\vvspace
+\begin{itemize}[leftmargin=0.15in]
+\item M378K \textit{Introduction to Mathematical Statistics} \quad 4.0/5.0  \hfill {Spring, Fall 2022}
+\item M408K \textit{Differential Calculus} \quad 4.5/5.0 \hfill {Spring 2021}
+\item M358K \textit{Applied Statistics} \quad 4.0/5.0 \hfill {Fall 2021}
+\item M362K \textit{Probability} \quad 4.3/5.0  \hfill { Fall 2020}
+% \vspace{-0.2in}
+
+% \end{itemize}
+
+% % \underline{Pure Mathematics}
+% % \vvspace
+% \begin{itemize}[leftmargin=0.15in]
+
+\item MF325K \textit{Discrete Mathematics} \quad 4.3/5.0  \hfill { Summer 2020}
+% \vspace{-0.2in}
+\item M427L \textit{Advanced Calculus for Applications II} \quad 4.1/5.0 \hfill{Spring 2020}
+\item M348 \textit{Scientific Computation in Numerical Analysis} \quad N/A \hfill{Spring, Fall 2019}
+\item M408D \textit{Sequences, Series, and Multivariable Calculus} \quad 4.2/5.0 \hfill{Fall 2018}
+\end{itemize}
+
+
+% \section{\sc Conferences \& Workshops Attended}
+% \begin{itemize}[leftmargin=0.15in]
+% \item Decision Making in Health and Medical Care, IMSI \hfill { May 2021}
+% \item SIAM Conference on Financial Mathematics and Engineering  \hfill { June 2021}\\
+% \vspace{-0.2in}
+% \item SIAM Conference on Control and Its Applications \hfill{July 2021}
+% \item  SIAM Annual Meeting \hfill{July 2021}
+% \item SIAM Conference on Optimization \hfill{July 2021}
+% \item 6th Berlin Workshop for Young Researchers on Mathematical Finance \hfill{Aug 2021}
+% \item Decision Making and Uncertainty, IMSI \hfill{Mar - May 2022}
+% \end{itemize}
+
+\section{\sc Professional Services}
+{\bf Referee}
+\vvspace
+\begin{itemize}[leftmargin=0.15in]
+\item Mathematical Programming 
+\item ACM International Conference on AI in Finance
+\end{itemize}
+{\bf Session Chair}
+\begin{itemize}[leftmargin=0.15in]
+    \item INFORMS 2021 invited session of Learning and Decision-making with Contextual Information
+    \item INFORMS 2022 invited session of Data-driven Decision Making
+\end{itemize}
+
+
+
+\section{\sc Outreach}
+{\bf \href{https://web.ma.utexas.edu/users/drp/about.html}{Directed Reading Program} Mentor}
+\vvspace
+\begin{itemize}[leftmargin=0.15in]
+\item Sonali Singh, on the topic of \textit{Stochastic Calculus for Finance} \hfill {Spring 2020}
+\item Wenxuan Jiang, on the topic of \textit{Stochastic Calculus for Finance} \hfill {Fall 2021}
+\item Haoze Yan, on the topic of \textit{Lectures on Stochastic Programming} \hfill {Spring, Fall 2022}
+\item Yuxiang Gao, on the topic of \textit{Elements of Statistical Learning} \hfill {Spring 2022}
+\end{itemize}
+
+
+\section{\sc References}
+\begin{minipage}[t]{0.8\textwidth}
+  \textbf{Rui Gao}\\
+  Department of Information, Risk, and Operations Management\\
+  The University of Texas at Austin\\
+  E-mail: \href{mailto: rui.gao@mccombs.utexas.edu}{ rui.gao@mccombs.utexas.edu}
+\end{minipage}
+
+% \hfill
+\begin{minipage}[t]{0.8\textwidth}
+  \textbf{Renyuan Xu}\\
+  Epstein Department of Industrial and Systems Engineering\\
+  University of Southern California\\
+  E-mail: \href{mailto: renyuanx@usc.edu}{ renyuanx@usc.edu}
+\end{minipage}
+
+
+\begin{minipage}[t]{0.8\textwidth}
+  \textbf{Thaleia Zariphopoulou}\\
+  Department of Mathematics\\
+  The University of Texas at Austin\\
+  E-mail: \href{mailto:zariphop@math.utexas.edu}{zariphop@math.utexas.edu}
+\end{minipage}
+
+% \section{\sc Programming}
+% Python (Scikit-Learn, TensorFlow, SciPy, Gurobi, Mosek), C++, R, Matlab, Mathematica
+
+% \section{\sc Research Topics}
+% \begin{itemize}[leftmargin=0.15in]
+% \item Robust portfolio selection
+% \item Markets with frictions
+% \item Partial information
+% \item Rational inattention
+% \item Nonlinear filtering
+% \item Information costs
+% \end{itemize}
+
+
+
+
+\iffalse
+\section{\sc Professional Employment}
+{\bf China International Capital Corporation (Henan)}, Zhengzhou, China
+\vspace{-.3cm}
+
+{\em Private Equity Analyst (Intern)} \hfill {\bf Dec. 2017 - Feb. 2018}\\
+% \begin{list2}
+% \item Conducted commercial due diligence and comparable companies analysis in an pre-IPO investment deal of a power battery company
+% \item Performed industry and firm specific research on an electric logistics car company
+% \item Implemented industry research on China’s PE/VC market and governmental investment funds 
+% \end{list2}
+
+{\bf Chinese Academy of Sciences}, Beijing, China
+\vspace{-.3cm}
+
+{\em Research Assitant} \hfill {\bf July - Sept. 2017, July - Sept. 2016}\\
+{\em National Undergraduate Student Innovation Program} (fellowship funded) \\
+{\em Visting Researcher for the State Key Laboratory of Scientific and Engineering Computing (LSEC)}
+\smallskip
+% \begin{list2}
+% \item Topics:  Model for ranking personal credit (in practice)
+% \item Advisor: Yuhong Dai,  Feng Kang Chair Professor  
+% \item  Statistical Model Selection, Factor Selecting
+% \end{list2}
+
+{\bf Peking University}, Beijing, China
+\vspace{-.3cm}
+
+{\em Research Assitant} \hfill {\bf July 2016 - Sept. 2016}\\
+% \begin{list2}
+% \item Topics: Conception, development and implementation on the illiquidity in stock returns
+% \item Advisor: Yao Wang
+% \item Sparse Evolutive models, Multiscale Representations
+% \end{list2}
+
+
+\section{\sc Academic Experience}
+
+{\bf University of Texas at Austin}, Austin, Texas USA
+\vspace{-.3cm}
+
+{\em Research Intern} \hfill {\bf Sept - Dec. 2017}\\
+\begin{list2}
+\item Topics: Several inverse problems in partial differential equations
+\item Advisor: Kui Ren. 
+\item Scattering Representations of Stochastic Processes
+\end{list2}
+
+
+
+
+{\bf University of California, Berkeley}, Berkeley, California USA
+
+\vspace{-.3cm}
+{\em Research Trainee} \hfill {\bf Mar. 2017 - June 2017}\\
+\begin{list2}
+\item Topics: Stochastic model reduction by NARMA Model
+\item Advisor: Fei Lu
+\item Stochastic Differential Equations
+\end{list2}
+
+
+
+{\bf Xi'an Jiaotong University}, Xi'an,  Shaanxi China
+
+\vspace{-.3cm}
+{\em Research Trainee} \hfill {\bf July. 2017 - Present}\\
+\begin{list2}
+\item Topics: Dynamic behaviour of FitzHugh-Nagumo model
+\item Advisor: Yanmei Kang
+\item Internal Noise, Spatial Coherence Resonance
+\end{list2}
+
+
+{\em Research Trainee} \hfill {\bf Sept. 2016 - Dec. 2016}\\
+\begin{list2}
+\item Topics: Identified of risk schizophrenia-associated loci with PCI method
+\item Advisor: Chen Qiao
+\item Feature Back-selection Method, Space Saving Ability, Accuracy Rate
+\end{list2}
+
+
+\section{\sc Papers} 
+\begin{list1}
+\item[] Qiao C., Sun K., Zhang L. \& Zhang W. \textit{Feature selection method by DL on handwritten digits datasets}, in preparation.
+\end{list1}
+
+\section{\sc Awards and Patents} 
+\begin{list2}
+\item Certificate of Utility Model Patent: ZL 2013 2 0431220.0. \hfill { Jan. 2014}
+
+\begin{list1}
+\item[] This patent consists of a new design for cradles with adjustable supporting area according to the growth of babies. 
+\end{list1}
+
+\item Honorable Mention Prize in 2015 Interdisciplinary Contest in Modeling. \hfill { Feb. 2015}
+
+\item Honorable Mention Prize in 2017 Interdisciplinary Contest in Modeling. \hfill { Feb. 2017}
+\end{list2}
+
+
+\section{\sc Computer Skills} 
+\begin{list2}
+\item Math-related:  Matlab, Mathematica, R, \LaTeX.
+\item Programming:  C++.
+\end{list2}
+
+\section{\sc Standardized Tests}
+\begin{list1}
+\item[] TOEFL: 95  (R:27, L:24, S:19, W:25) 
+\item[] IELTS: 7  (R:8, L:7, S:6, W:6) 
+\item[] GRE: 324 (V:156, Q:168)
+\end{list1}
+\fi
+
+\end{resume}
+\end{document}
